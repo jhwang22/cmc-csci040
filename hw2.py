@@ -81,6 +81,8 @@ def absolute_value(n):
     '''
 
 
+
+
 def max_num(a, b):
     '''
     Return the maximum of a and b.
@@ -96,6 +98,10 @@ def max_num(a, b):
     4
     '''
 
+    if a > b:
+        return a
+    else:
+        return b
 
 def max_num_4(a, b, c, d):
     '''
@@ -113,6 +119,7 @@ def max_num_4(a, b, c, d):
     >>> max_num_4(10,1,2,3)
     10
     '''
+
 
 
 def max_num_abs(a, b):
@@ -153,6 +160,11 @@ def is_leap_year(n):
     True
     '''
 
+    if n%4 == 0:
+    if n%100 != 0:
+    if n%400 == 0:
+        else: return False
+    return True
 
 def num_digits(n):
     '''
